@@ -1,0 +1,8 @@
+{
+  "name": "Sabor Urbano",
+  "description": "Site profissional para o restaurante Sabor Urbano, especializado em cozinha fusão contemporânea em Maputo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
