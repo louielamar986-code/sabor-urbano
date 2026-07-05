@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { Award, ShieldCheck, Soup, Sparkles } from 'lucide-react';
+import interiorImg from '../assets/images/sabor_urbano_interior_1783275002905.jpg';
 
 export default function About() {
   const values = [
@@ -72,7 +73,7 @@ export default function About() {
               id="about-image-wrapper"
             >
               <img
-                src="/src/assets/images/sabor_urbano_interior_1783275002905.jpg"
+                src={interiorImg}
                 alt="Ambiente Interior do Sabor Urbano"
                 referrerPolicy="no-referrer"
                 className="w-full h-[450px] object-cover hover:scale-105 transition-transform duration-700 ease-out"

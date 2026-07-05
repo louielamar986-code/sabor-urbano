@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { motion } from 'motion/react';
 import { Calendar, ChevronDown } from 'lucide-react';
+import heroImg from '../assets/images/sabor_urbano_hero_1783274987620.jpg';
 
 interface HeroProps {
   onOpenReservation: () => void;
@@ -66,7 +67,7 @@ export default function Hero({ onOpenReservation }: HeroProps) {
       {/* Background Image with Dark Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/sabor_urbano_hero_1783274987620.jpg"
+          src={heroImg}
           alt="Sabor Urbano Fusão Gourmet"
           referrerPolicy="no-referrer"
           className="h-full w-full object-cover object-center"

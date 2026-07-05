@@ -1,5 +1,11 @@
 import { MenuItem, GalleryItem, Testimonial } from './types';
 
+// Import images from assets directory to allow Vite to bundle and resolve them properly
+import starterImg from './assets/images/sabor_urbano_starter_1783275015633.jpg';
+import heroImg from './assets/images/sabor_urbano_hero_1783274987620.jpg';
+import dessertImg from './assets/images/sabor_urbano_dessert_1783275028825.jpg';
+import interiorImg from './assets/images/sabor_urbano_interior_1783275002905.jpg';
+
 export const MENU_ITEMS: MenuItem[] = [
   // ENTRADAS (Starters)
   {
@@ -8,7 +14,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Atum fresco marinado em citrinos, abacate cremoso, gengibre, soja artesanal e óleo de sésamo tostado.',
     price: 650,
     category: 'entradas',
-    imageUrl: '/src/assets/images/sabor_urbano_starter_1783275015633.jpg'
+    imageUrl: starterImg
   },
   {
     id: 'ent-2',
@@ -34,7 +40,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Lombo macio grelhado com crosta perfumada de ervas finas, puré de batata-doce roxa e molho encorpado de vinho do Porto.',
     price: 1450,
     category: 'principais',
-    imageUrl: '/src/assets/images/sabor_urbano_hero_1783274987620.jpg'
+    imageUrl: heroImg
   },
   {
     id: 'pr-2',
@@ -60,7 +66,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Mousse de chocolate negro 70%, ganache de chocolate branco com cardamomo, crocante de cacau e um toque de flor de sal.',
     price: 480,
     category: 'sobremesas',
-    imageUrl: '/src/assets/images/sabor_urbano_dessert_1783275028825.jpg'
+    imageUrl: dessertImg
   },
   {
     id: 'sob-2',
@@ -111,25 +117,25 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'gal-1',
     title: 'O Nosso Salão Principal',
     category: 'Ambiente',
-    imageUrl: '/src/assets/images/sabor_urbano_interior_1783275002905.jpg'
+    imageUrl: interiorImg
   },
   {
     id: 'gal-2',
     title: 'Texturas de Chocolate',
     category: 'Sobremesa',
-    imageUrl: '/src/assets/images/sabor_urbano_dessert_1783275028825.jpg'
+    imageUrl: dessertImg
   },
   {
     id: 'gal-3',
     title: 'Tártaro de Atum Gourmet',
     category: 'Entrada',
-    imageUrl: '/src/assets/images/sabor_urbano_starter_1783275015633.jpg'
+    imageUrl: starterImg
   },
   {
     id: 'gal-4',
     title: 'Cozinha Criativa',
     category: 'Fusão',
-    imageUrl: '/src/assets/images/sabor_urbano_hero_1783274987620.jpg'
+    imageUrl: heroImg
   },
   {
     id: 'gal-5',
